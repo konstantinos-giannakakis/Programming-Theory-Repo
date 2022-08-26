@@ -29,4 +29,9 @@ public class ChoosePlayerUIHandler : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void Return()
+    {
+        // Abstraction
+        ChoosePlayerManager.Instance.Return();
+    }
 }

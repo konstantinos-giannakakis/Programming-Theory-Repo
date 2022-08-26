@@ -19,4 +19,10 @@ public class ChoosePlayerManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
+
+    public void Return()
+    {
+        SceneManager.LoadScene(0);
+    }
+
 }
